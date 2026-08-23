@@ -64,5 +64,31 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Inxeption is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/inxeption_stock/
+Inxeption was a B2B "industrial commerce" software company founded in 2017 by Farzad Dibachi and
+headquartered in Silicon Valley (San Jose / Cupertino, California). It sold a cloud commerce platform
+that let manufacturers, distributors and wholesalers stand up a branded online storefront and digital
+product catalog, then manage quoting, contract-specific pricing, purchase orders, freight and
+logistics, returns, payments and sales analytics from one place. Its best-known product was Inxeption
+Zippy, launched in March 2019 with UPS after an equity investment from the UPS Strategic Enterprise
+Fund. The company raised roughly $186M, including a $125M Series E in January 2022.
+
+**Inxeption shut down on 2024-08-15.** This profile is retained as a historical company record.
+
+## Coverage
+
+`x-coverage: none / defunct` — the company genuinely has no API surface, and no longer exists.
+
+Probed 2026-08-23:
+
+| Surface | Result |
+| --- | --- |
+| `api.` `docs.` `developer.` `developers.` `support.` `app.` `platform.inxeption.com` | NXDOMAIN |
+| `https://inxeption.com/` | HTTP 200 — a serp.domains "premium aged domain" for-sale listing, not Inxeption |
+| `/openapi.json`, `/swagger.json`, `/llms.txt`, `/graphql`, every `/.well-known/*` | HTTP 200 soft-200; the parking page's SPA shell, no document |
+| `github.com/inxeption` | Organization exists (created 2019-05-28), **0 public repositories** |
+| npm, PyPI, RubyGems, crates.io, Packagist | No package named `inxeption` |
+| Wayback (`inxeption.com`) | Site 404s from September 2024; no developer portal or API reference ever archived |
+
+Inxeption never operated a public developer program. Its integration story was bespoke customer and
+EDI connections delivered under contract, so there is no OpenAPI, AsyncAPI, GraphQL SDL, SDK or
+package to harvest — an honest zero, not a gap in this profile.

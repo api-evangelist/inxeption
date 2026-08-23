@@ -1,0 +1,69 @@
+generated: '2026-08-23'
+method: probed
+source: https://inxeption.com/.well-known/
+name: Inxeption Well-Known Documents
+description: >-
+  Probe of the /.well-known/ surface for Inxeption. NOTHING WAS FOUND. inxeption.com is the
+  only host in the company's namespace that still resolves, and it no longer serves Inxeption:
+  the company shut down on 2024-08-15 and the domain is now listed for sale on the serp.domains
+  marketplace ("Premium aged domain with verified backlinks and SEO metrics"). Every path below
+  returned HTTP 200 with the identical single-page-application shell of that parking page — a
+  soft-200, not a document. No pointer of type WellKnown or SecurityTxt is emitted from this
+  file, because the provider does not serve these surfaces and the host is no longer under the
+  provider's control.
+host_control: lost
+host_control_note: >-
+  inxeption.com resolves to 213.136.84.170 and is operated by the serp.domains domain
+  marketplace, not by Inxeption. Any TLS, DNS, security.txt or headers posture observed on this
+  host describes the current registrant and must not be attributed to Inxeption.
+hosts:
+- host: inxeption.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: miss
+    note: HTML SPA shell of the domain-for-sale parking page, not a security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    result: miss
+    note: HTML SPA shell, not JSON
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    result: miss
+    note: HTML SPA shell, not JSON
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    result: miss
+    note: HTML SPA shell, not JSON
+  - path: /.well-known/api-catalog
+    status: 200
+    result: miss
+    note: HTML SPA shell, not a linkset
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    result: miss
+    note: HTML SPA shell, not JSON
+  - path: /.well-known/agent-card.json
+    status: 200
+    result: miss
+    note: HTML SPA shell; no AgentCard shape. No a2a/ artifact written.
+  - path: /.well-known/agent.json
+    status: 200
+    result: miss
+    note: HTML SPA shell; legacy pre-0.3 path also a catch-all miss
+unresolved_hosts:
+- host: api.inxeption.com
+  note: NXDOMAIN
+- host: docs.inxeption.com
+  note: NXDOMAIN
+- host: developer.inxeption.com
+  note: NXDOMAIN
+- host: developers.inxeption.com
+  note: NXDOMAIN
+- host: support.inxeption.com
+  note: NXDOMAIN (a Zoho Desk knowledge base was indexed here before the shutdown)
+- host: app.inxeption.com
+  note: NXDOMAIN
+- host: platform.inxeption.com
+  note: NXDOMAIN
+checked: '2026-08-23'
