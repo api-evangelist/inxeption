@@ -30,6 +30,17 @@ x-website-note: >-
   forgeglobal.com is a secondary-market share listing about the company, not a site the company
   publishes, and pointing Website at the parked domain would assert a page the company no longer
   serves.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 specificationVersion: '0.23'
 created: '2026-08-23'
 modified: '2026-08-23'
