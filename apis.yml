@@ -38,7 +38,7 @@ deliveryModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-08-23'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - E-Commerce
@@ -50,6 +50,7 @@ tags:
 - Manufacturing
 - Marketplace
 - Order Management
+- Defunct
 tags_raw:
 - Company
 - Ecommerce
@@ -61,6 +62,7 @@ tags_raw:
 - Manufacturing
 - Marketplace
 - Order Management
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
