@@ -64,31 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Inxeption was a B2B "industrial commerce" software company founded in 2017 by Farzad Dibachi and
-headquartered in Silicon Valley (San Jose / Cupertino, California). It sold a cloud commerce platform
-that let manufacturers, distributors and wholesalers stand up a branded online storefront and digital
-product catalog, then manage quoting, contract-specific pricing, purchase orders, freight and
-logistics, returns, payments and sales analytics from one place. Its best-known product was Inxeption
-Zippy, launched in March 2019 with UPS after an equity investment from the UPS Strategic Enterprise
-Fund. The company raised roughly $186M, including a $125M Series E in January 2022.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Inxeption shut down on 2024-08-15.** This profile is retained as a historical company record.
+Inxeption was a B2B "industrial commerce" software company founded in 2017 by serial entrepreneur Farzad Dibachi and headquartered in Silicon Valley (San Jose / Cupertino, California). It sold a cloud commerce platform that let manufacturers, distributors and wholesalers stand up a branded online storefront and digital product catalog, then manage quoting, contract-specific pricing, purchase orders, bulk and multimodal orders, freight and logistics, returns, payments and sales analytics from one place — a category it marketed as the "Industrial Commerce SuperApp". Its best-known product was Inxeption Zippy, launched in March 2019 with UPS after an equity investment from the UPS Strategic Enterprise Fund, which bundled UPS as the shipper of choice into the storefront. The company raised roughly $186M across its rounds, including a $125M Series E in January 2022. Inxeption shut down on 2024-08-15. It never operated a public developer program: no developer portal, API reference, OpenAPI/AsyncAPI/GraphQL contract, SDK or package was ever published, and its integration story was bespoke customer and EDI connections delivered under contract. Today only the apex domain resolves, and it no longer belongs to the company — it is listed for sale on the serp.domains domain marketplace. This profile is retained as a historical company record.
 
-## Coverage
+**Areas:** Company · E-Commerce · B2B eCommerce · Supply Chain · Logistics · Freight · Industrial · Manufacturing · Marketplace · Order Management · Defunct
 
-`x-coverage: none / defunct` — the company genuinely has no API surface, and no longer exists.
+## Inxeption on APIs.io (historical record)
 
-Probed 2026-08-23:
+Everything profiled for Inxeption is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/inxeption/](https://apis.io/providers/inxeption/)** — or go straight to one of the APIs or properties below.
 
-| Surface | Result |
-| --- | --- |
-| `api.` `docs.` `developer.` `developers.` `support.` `app.` `platform.inxeption.com` | NXDOMAIN |
-| `https://inxeption.com/` | HTTP 200 — a serp.domains "premium aged domain" for-sale listing, not Inxeption |
-| `/openapi.json`, `/swagger.json`, `/llms.txt`, `/graphql`, every `/.well-known/*` | HTTP 200 soft-200; the parking page's SPA shell, no document |
-| `github.com/inxeption` | Organization exists (created 2019-05-28), **0 public repositories** |
-| npm, PyPI, RubyGems, crates.io, Packagist | No package named `inxeption` |
-| Wayback (`inxeption.com`) | Site 404s from September 2024; no developer portal or API reference ever archived |
+## API Evangelist rating
 
-Inxeption never operated a public developer program. Its integration story was bespoke customer and
-EDI connections delivered under contract, so there is no OpenAPI, AsyncAPI, GraphQL SDL, SDK or
-package to harvest — an honest zero, not a gap in this profile.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Inxeption: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/inxeption/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
